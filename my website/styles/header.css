@@ -1,0 +1,72 @@
+.page-1 {
+    display: grid;
+}
+
+.nav-container {
+    min-height: 25vh;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav img {
+    max-height: 25vh;
+}
+
+nav .left-image-container {
+    position: relative;
+}
+
+nav .logo {
+    max-height: 22vh;
+    position: absolute;
+    top: 3%;
+    left: 13%;
+    cursor: pointer;
+}
+
+nav .center {
+    display: flex;
+    column-gap: 40px;
+}
+
+nav .center p::after {
+        content: '';
+        width: 0%;
+        height: 2px;
+        background-color: #ffa230;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+}
+
+nav .center p:hover::after {
+    width: 100%;
+}
+
+nav p {
+    cursor: pointer;
+    font-family: Pangolin,arial;
+}
+
+nav .right-image-container {
+    position: relative;
+    min-width: 251.92px;
+    display: flex;
+    justify-content: right;
+}
+
+nav .contact {
+    position: absolute;
+    top: 41%; 
+    right: 15%;
+    cursor: pointer;
+    font-family: tex,arial;
+
+}
+    
