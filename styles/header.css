@@ -33,6 +33,7 @@ nav .logo {
 nav .center {
     display: flex;
     column-gap: 40px;
+    white-space: nowrap;
 }
 
 nav .center p::after {
