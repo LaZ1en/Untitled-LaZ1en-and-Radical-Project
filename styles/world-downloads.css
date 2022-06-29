@@ -1,0 +1,40 @@
+.heading {
+    display: flex;
+    justify-content: center;
+
+    min-width: 100vh;
+}
+
+.heading h1 {
+    font-family: bold,arial;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 5vh;
+}
+
+.grid {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 20vh repeat(2, 1fr) 20vh;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    min-width: 100vh;
+    column-gap: 5vh;
+    }
+
+.grid img {
+    margin-top: 100px;
+    border-radius: 14px;
+    
+}
+
+.grid .furnace {
+    grid-column: 2/3;
+    width:100%;
+}
+
+.grid .iron {
+    grid-column: 3/4;
+    width:100%;  
+}

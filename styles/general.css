@@ -1,0 +1,45 @@
+@font-face {
+    
+    font-family: "tex";
+    src: url(../fonts/tex-gyre-adventor.bold.ttf) format('truetype');
+    
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(../fonts/THEBOLDFONT.ttf);
+}
+
+@font-face {
+    font-family: "raleway-regular";
+    src: url(../fonts/raleway.regular.ttf);
+}
+
+@font-face {
+    font-family: "raleway-bold";
+    src: url(../fonts/raleway.bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    
+    font-family: tex;
+    
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: black;
+      }
+
