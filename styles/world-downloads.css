@@ -5,6 +5,10 @@
     min-width: 100vh;
 }
 
+.heading strong {
+    color: #ffa230;
+}
+
 .heading h1 {
     font-family: bold,arial;
     text-align: center;

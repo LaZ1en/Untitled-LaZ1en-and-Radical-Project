@@ -1,0 +1,72 @@
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.heading h1 {
+    font-family: bold,airal;
+    font-size: 100px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.heading strong {
+    color: #ffa230;
+}
+
+.contact-grid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.contact-grid .socials {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .contact-grid .socials img {
+    width: 80px;
+  }
+  
+  .contact-grid .socials p {
+    font-size: 50px;
+    font-family: bold, arial;
+    margin-left: 30px;
+  }
+  
+  .contact-grid #discord {
+    margin-bottom: 10px;
+  }
+  
+  .contact-grid #twitter {
+    margin-bottom: 8px;
+  }
+  
+  .contact-grid .text-container {
+    position: relative;
+  }
+  
+  .contact-grid .subtext {
+    position: absolute;
+    top: 40%;
+    font-size: 25px;
+    left: 260px;
+    font-family: bold, arial;
+    white-space: nowrap;
+  }
+  
+  #Socials-text {
+    -webkit-text-stroke: 2px black;
+    color: white;
+    transition: 0.5s;
+  }
+  
+  #Socials-text:hover {
+    color: #404040;
+    text-shadow: -10px 15px 20px rgba(0, 0, 0, 0.2);
+  }
+  
