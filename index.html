@@ -33,15 +33,16 @@
     <!-- ^ font name is montserrat  -->
 
     <link rel="stylesheet" href="styles/general.css" />
-    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/header&footer.css" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/mobileStyling.css">
   </head>
   <body>
     <main>
-      <div class="page-1">
+      <div class="hero-section">
         <div class="nav-container">
           <nav>
-            <div class="left-image-container">
+            <div class="nav-logo-container">
               <img class="left-header" src="images/left-header.png" />
               <img class="logo" src="images/logo.png" />
             </div>
@@ -64,23 +65,40 @@
           <img src="images/scroll.gif" />
         </div>
       </div>
-      
-      <section class="about" id="about">
-        <div class="img-container"><img src="images/about-top.png" alt=""></div>
-        
-        <div class="about-grid">
-            <div class="text-container">
-                <h1>About<h1>
-                <p>im a  LaZy Asian who likes Minecraft and makes videos on it for a living, yes this is the whole about section</p>
-            </div>
-            <img class="avatar" src="images/avatar.png" alt="">
+
+
+      <div class="hero-section-mobile">
+
+        <div class="hello">
+          <p class="hello-text">Hello.</p>
         </div>
 
-        <div class="img-container"><img class="bottom" src="images/about-bottom.png" alt=""></div>
-    </section>
+        <!-- <div class="nav-logo-container">
+          <img class="left-header" src="images/left-header.png" />
+          <img class="logo" src="images/logo.png" />
+        </div>
+      </div> -->
+      </div>
 
-      <section class="page-3-container">
-        <div class="page-3">
+      <!-- ssss -->
+      
+      <div class="about-container">
+        <section class="about" id="about">
+          <div class="img-container"><img src="images/about-top.png" alt=""></div>
+          
+          <div class="about-grid">
+              <div class="text-container">
+                  <h1>About<h1>
+                  <p>im a  LaZy Asian who likes Minecraft and makes videos on it for a living, yes this is the whole about section</p>
+              </div>
+              <img class="avatar" src="images/avatar.png" alt="">
+          </div>
+
+          <div class="img-container"><img class="bottom" src="images/about-bottom.png" alt=""></div>
+      </section>
+    </div>  
+      <section class="worldDownloads-container">
+        <div class="worldDownloads">
           <div class="text-container">
             <a href="world-downloads.html" class="a"
               ><h2>World</h2>
@@ -139,8 +157,7 @@
         </div>
       </section>
 
-      <section class="footer">
-            
+      <footer>
         <div class="nav">
                 <a href="#about"><p>About</p></a>
                 <a href="world-downloads.html"><p>World Downloads</p></a>
@@ -155,12 +172,10 @@
 
         
 
-      </section>
+      </footer>
 
     </main>
   </body>
 
   <script src="main.js"></script>
-
-  <!-- TEst Change -->
 </html>

@@ -7,6 +7,10 @@ body {
   display: grid;
 }
 
+.hero-section {
+  display: grid;
+}
+
 .hello {
   height: 75vh;
   width: 100%;
@@ -38,35 +42,30 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 50vh;
+  padding: 5vh;
 }
 
 .about .img-container {
-  
   display: grid;
   height: 100%;
-  
 }
 
 .about img {
-  min-width: 100%;
-  min-height: auto;
-  
-
-
+  width: 100%;
+  height: auto;
 }
 
 .about h1 {
-  font-family: bold,arial;
+  font-family: bold, arial;
   font-size: 400%;
-  margin-bottom: 1.5% ;
+  margin-bottom: 1.5%;
   margin-top: 30px;
 }
 
 .about p {
-  font-family: Pangolin,arial;
+  font-family: Pangolin, arial;
   font-size: 50%;
   margin-bottom: 30px;
-
 }
 
 .about .text-container {
@@ -74,18 +73,14 @@ body {
 }
 
 .about .avatar {
-
-  max-height: 70vh;
   min-width: auto;
-
 }
 
 .about .bottom {
   z-index: 2;
 }
 
-
-.page-3 {
+.worldDownloads {
   min-width: 100vh;
   min-height: auto;
   position: relative;
@@ -94,21 +89,21 @@ body {
   align-items: center;
 }
 
-.page-3 .text-container {
+.worldDownloads .text-container {
   display: inline-block;
   margin-top: 140px;
   align-items: center;
   position: relative;
 }
 
-.page-3 a {
+.worldDownloads a {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
 }
 
-.page-3 h2 {
+.worldDownloads h2 {
   font-family: bold, arial;
   font-size: 500%;
   display: flex;
@@ -117,22 +112,22 @@ body {
   cursor: pointer;
 }
 
-.page-3 strong {
+.worldDownloads strong {
   color: #ffa230;
 }
 
-.page-3 .text-container img {
+.worldDownloads .text-container img {
   position: absolute;
   top: 30%;
   opacity: 0%;
   transition: 0.5s;
 }
 
-.page-3 a:hover ~ .underline {
+.worldDownloads a:hover ~ .underline {
   opacity: 80%;
 }
 
-.page-3 img {
+.worldDownloads img {
   left: 0%;
   width: 100%;
   padding-top: 0px;
@@ -140,7 +135,6 @@ body {
 
 .page-4-container {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-around;
   align-items: center;
   min-width: 100vh;
@@ -151,7 +145,6 @@ body {
 .page-4-container h2 {
   font-family: bold, arial;
   font-size: 600%;
-  /* margin-top: 80px; */
   letter-spacing: 10px;
   text-decoration: underline;
 }

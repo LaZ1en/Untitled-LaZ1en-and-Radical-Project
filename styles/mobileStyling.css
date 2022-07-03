@@ -1,0 +1,65 @@
+.hero-section-mobile {
+  display: none;
+  width: 100vw;
+}
+
+@media (max-width: 1200px) {
+  .hero-section {
+    display: none;
+  }
+
+  .hero-section-mobile {
+    display: block;
+  }
+
+  .hero-section-mobile .hello {
+    height: 75vh;
+    width: 100vw;
+  }
+
+  .hero-section-mobile .hello-text {
+    position: absolute;
+    top: 25%;
+    font-size: 120px;
+    cursor: default;
+  }
+
+  .about-container {
+    width: 100vw;
+  }
+
+  .about {
+    width: 100vw;
+  }
+
+  .about .img-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about .about-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .worldDownloads {
+    min-width: 100vw;
+    height: auto;
+  }
+
+  .worldDownloads .text-container h2 {
+    font-size: 50px;
+  }
+
+  .page-4-container {
+    display: none;
+  }
+
+  footer .nav {
+    flex-direction: column;
+  }
+
+  footer .nav a {
+    padding: 1vh;
+  }
+}
