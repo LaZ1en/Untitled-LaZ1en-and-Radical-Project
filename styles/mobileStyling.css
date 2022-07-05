@@ -51,8 +51,47 @@
     font-size: 50px;
   }
 
-  .page-4-container {
+  .socials-container {
     display: none;
+  }
+
+  .socials-container-mobile {
+    display: block;
+  }
+
+  .socials-container-mobile .socials-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .socials-container-mobile .title {
+    font-family: bold, arial;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-bottom: 5vh;
+    border-bottom: black 4px solid;
+  }
+
+  .socials-container-mobile .socials {
+    margin-bottom: 2vh;
+  }
+
+  .socials-container-mobile .socials img {
+    width: 40px;
+  }
+
+  .socials-container-mobile .socials p {
+    font-size: 20px;
+    font-family: bold, arial;
+  }
+
+  .socials-container-mobile .subtext {
+    font-size: 20px;
+    font-family: bold, arial;
   }
 
   footer .nav {
