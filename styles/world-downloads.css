@@ -20,7 +20,7 @@
     
     display: grid;
     grid-template-columns:  20vh repeat(2, 1fr) 20vh;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
     column-gap: 5vh;
     white-space: nowrap;
     }
@@ -41,4 +41,12 @@
 .grid .iron {
     grid-column: 3/4;
 
+}
+
+.grid .enderman {
+    grid-column: 3/4;
+}
+
+.grid .mud {
+    grid-column: 2/3;
 }
