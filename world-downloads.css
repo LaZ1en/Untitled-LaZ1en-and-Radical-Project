@@ -1,0 +1,52 @@
+.heading {
+    display: flex;
+    justify-content: center;
+
+    min-width: 100vh;
+}
+
+.heading strong {
+    color: #ffa230;
+}
+
+.heading h1 {
+    font-family: bold,arial;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 5vh;
+}
+
+.grid {
+    
+    display: grid;
+    grid-template-columns:  20vh repeat(2, 1fr) 20vh;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 5vh;
+    white-space: nowrap;
+    }
+
+.grid img {
+    margin-top: 100px;
+    border-radius: 14px;
+    width: 100%;
+    height: auto;
+    
+}
+
+.grid .furnace {
+    grid-column: 2/3;
+
+}
+
+.grid .iron {
+    grid-column: 3/4;
+
+}
+
+.grid .enderman {
+    grid-column: 3/4;
+}
+
+.grid .mud {
+    grid-column: 2/3;
+}
